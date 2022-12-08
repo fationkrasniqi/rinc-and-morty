@@ -9,8 +9,9 @@ import Search from './components/Search/Search';
 function App() {
 
   let [pageNumber, setPageNumber] = useState(1); 
+  let [search, setSearch] = useState("");
   let [fetchedData,updateFetchData] = useState([]);
-  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`;
+  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}`;
   let {info, results} = fetchedData;
 
   // console.log(fetchedData)
@@ -29,7 +30,7 @@ function App() {
     <div>
       <h1 className="text-center ubuntu my-4">Rick & <span className="text-primary">Morty</span></h1>
     
-       <Search/>
+       <Search setSearch={setSearch}/>
       <div className="container">
         <div className="row">
           <div className="col-12">
