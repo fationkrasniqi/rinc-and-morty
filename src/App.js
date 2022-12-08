@@ -2,8 +2,9 @@ import React , {useState, useEffect } from 'react'
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import Cards from "./components/Cards/Cards";
-import Filters from "./components/Filters/Filters";
 import "./App.css"
+import Pagination from './components/Pagination/Pagination';
+import Search from './components/Search/Search';
 
 function App() {
 
@@ -27,10 +28,11 @@ function App() {
   return (
     <div>
       <h1 className="text-center ubuntu my-4">Rick & <span className="text-primary">Morty</span></h1>
+    
+       <Search/>
       <div className="container">
         <div className="row">
-          <div className="col-3"><Filters/></div>
-          <div className="col-8">
+          <div className="col-12">
             <div className="row">
               <Cards results={results}/>
              
@@ -38,6 +40,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Pagination pageNumber={pageNumber} setPageNumber={setPageNumber}/>
     </div>
 
   );

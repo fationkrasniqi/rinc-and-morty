@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #0b5ed7;
+}
