@@ -1,12 +1,34 @@
-import React , {useState, useEffect } from 'react'
+import React , {useState, useEffect } from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import Cards from "./components/Cards/Cards";
 import "./App.css"
 import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
+import Navbar from './components/Navbar/Navbar';
+import About from './pages/About/About';
 
-function App() {
+function App(){
+  return(
+  <BrowserRouter>
+  <Navbar/>
+  <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/characters' element={<Characters/>}/>
+    <Route path='/about' element={<About/>}/>
+  </Routes>
+  </BrowserRouter>
+  )
+}
+
+function Home() {
+  return(
+    <h1>Hi</h1>
+  )
+};
+
+function Characters() {
 
   let [pageNumber, setPageNumber] = useState(1); 
   let [search, setSearch] = useState("");

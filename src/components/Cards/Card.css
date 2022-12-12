@@ -1,13 +1,11 @@
 .cards{
-    border: 2px solid #0b5ed7;
+    /* border: 2px solid #0b5ed7; */
     border-radius: 10px;
     margin-bottom: 20px;
 
 }
 
-.img{
-    border-radius: 10px 10px 0 0;
-}
+
 
 .content{
     padding: 10px;
