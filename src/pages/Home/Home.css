@@ -1,0 +1,180 @@
+.getstartedbutton{
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+   
+}
+
+.repository{
+    position: absolute;
+    top: 13rem;
+    left: 50rem;
+}
+
+.rickandmortyimage{
+    width: 105rem;
+    height: 45rem;
+    
+}
+
+
+.randomtext{
+    display: flex;
+    justify-content: center;
+    
+   
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 5rem;
+}
+
+.rickandmorty{
+    height: 15rem;
+    margin-right: 11rem;
+    margin-left: 10rem;
+
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.test2{
+    margin-top: 10rem;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 10rem;
+}
+
+
+.header_container {
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://wallpaper.dog/large/17058391.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+   .header_img{
+  
+     /* height: 400px; */
+    /* // position: relative; */
+    /* // overflow: hidden; */
+    text-align: center;
+    color: #fff;
+    /* // font-size: 140%; */
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    top: 5vh;
+    /* left: 33%; */
+    position: absolute;
+    width: 100%;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .btn-show-more-1 {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+    margin-right: 30px;
+    width: 12vw;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 30px;
+  }
+  .header-1 {
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    margin-bottom: 2px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    margin: 2;
+    padding: 0;
+  }
+  .header-2 {
+    
+    font-size: 3rem;
+    margin-bottom: 20px;
+    width: fit-content;
+    font-family: 'Urbanist', sans-serif;
+    font-weight:600;
+    margin: 2;
+    padding: 0;
+  }
+  @media screen and (max-width: 1400px) {
+    .btn-show-more-1 {
+      width: 20vw;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .header_img {
+        
+      flex-direction: column;
+      left: 0;
+      top: 40%;
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .header-1,
+    .header-2 {
+      font-size: 2rem;
+    }
+    .btn-show-more-1 {
+      padding: 10px 30px;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .header_img {
+      flex-direction: column;
+      left: 0;
+      top: 13%;
+      width: 100%;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .header-1,
+    .header-2 {
+      font-size: 1.5rem;
+    }
+    .btn-show-more-1 {
+      padding: 10px 30px;
+      width: 50vw;
+    }
+
+    .repository {
+        position: absolute;
+        top: 42rem;
+        left: 12rem;
+    }
+
+    .getstartedbutton {
+        position: absolute;
+        top: 42rem;
+        left: 0rem;
+    }
+  }

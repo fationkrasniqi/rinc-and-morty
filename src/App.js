@@ -8,6 +8,8 @@ import Pagination from './components/Pagination/Pagination';
 import Search from './components/Search/Search';
 import Navbar from './components/Navbar/Navbar';
 import About from './pages/About/About';
+import Pagenotfound from './pages/Pagenotfound/Pagenotfound';
+import Home from './pages/Home/Home';
 
 function App(){
   return(
@@ -17,16 +19,18 @@ function App(){
     <Route path='/' element={<Home/>}/>
     <Route path='/characters' element={<Characters/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/*' element={<Pagenotfound/>}/>
+
   </Routes>
   </BrowserRouter>
   )
 }
 
-function Home() {
-  return(
-    <h1>Hi</h1>
-  )
-};
+// function Home() {
+//   return(
+//     <h1>Hi</h1>
+//   )
+// };
 
 function Characters() {
 
@@ -50,7 +54,8 @@ function Characters() {
   
   return (
     <div>
-      <h1 className="text-center ubuntu my-4">Rick & <span className="text-primary">Morty</span></h1>
+      <h1 className="text-center ubuntu my-3">Rick & <span className="text-primary">Morty</span></h1>
+      <h1 className='text-center ubuntu text-primary '>Characters</h1>
     
        <Search setSearch={setSearch}/>
       <div className="container">

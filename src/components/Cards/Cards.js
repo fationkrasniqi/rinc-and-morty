@@ -12,7 +12,7 @@ const Cards = ({results}) => {
 
         return(<div key = {id }className='col-3'>
           <div className='cards'>
-            <img src={image} alt='' className={`$styles.img} img-fluid`} />
+            <img src={image} alt='' className={`${styles.img} img-fluid`} />
             <div className='content'>
             <div className='fs-5 fw-bold mb-3'>{name}</div>
             {(() => {
