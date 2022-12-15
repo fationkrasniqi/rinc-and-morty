@@ -1,7 +1,8 @@
 .getstartedbutton{
-    position: absolute;
-    top: 13rem;
-    left: 40rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 12rem;
+    gap: 5rem;
    
 }
 
@@ -24,26 +25,28 @@
     
    
     font-size: 2rem;
-    color: red;
+    color: rgb(49, 151, 149);
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
 .rickandmorty{
-    height: 15rem;
-    margin-right: 11rem;
+    height: 20rem;
+    margin-right: 4rem;
     margin-left: 10rem;
 
 }
 
 h4{
     font-size: 1rem;
+    padding-right: 190px;
 }
 
 .random{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    
 }
 
 
@@ -121,6 +124,50 @@ h4{
     margin: 2;
     padding: 0;
   }
+
+  /* End of the header */
+
+  .buton3{
+    margin-top: 3rem;
+  }
+
+  .buton6{
+    text-transform:inherit;
+    margin-top: 10px;
+    background-color: #319795;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 220px;
+    border-radius: 15px;
+  }
+
+  .images{
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .image22{
+    height: 40%;
+    width: 31%;
+  }
+
+
+  /* Top cast */
+
+  .cast{
+    margin-top: 40px;
+    display: flex;
+    
+  }
+
+  .justinimage{
+    width: 20%;
+  }
+
   @media screen and (max-width: 1400px) {
     .btn-show-more-1 {
       width: 20vw;
@@ -173,8 +220,10 @@ h4{
     }
 
     .getstartedbutton {
-        position: absolute;
+      
+        /* position: absolute; */
         top: 42rem;
         left: 0rem;
+        
     }
   }

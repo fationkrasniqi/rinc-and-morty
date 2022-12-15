@@ -1,0 +1,18 @@
+.test{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 35px;
+
+
+}
+
+.test3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* padding-bottom: 4px; */
+  width: 80px;
+}
