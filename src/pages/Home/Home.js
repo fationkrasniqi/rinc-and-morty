@@ -67,43 +67,80 @@ const Home = () => {
             <h1>Top cast
            </h1>  
         </div>
-        <div className='cast'>
-          <div>
-            <img className='justinimage' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSHfBPwCFoBjHeWb5TdDVXnnOgmnXvzwpbC0dtwMaxgtyTfxn3ih5kyac5tEgXgOvCovqteyMWIQaUTHLw'></img>
-            <h1>Justin Roiland</h1>
-            <h1>Rick Sanches</h1>
-            <h3>61 episodes ` 2013-2022</h3>
+        <div className='wrapper'>
+          <figure>
+          <div className='hover-animation'>
+           
+              <img  className="img-back" src='https://progameguides.com/wp-content/uploads/2021/06/fortnite-outfit-Rick-Sanchez-768x803.jpg'></img>
+              <img className='img-front' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSHfBPwCFoBjHeWb5TdDVXnnOgmnXvzwpbC0dtwMaxgtyTfxn3ih5kyac5tEgXgOvCovqteyMWIQaUTHLw'></img>
           </div>
-          <div>
-            <img className='justinimage' src='http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQqu6sbizVCs_rOvjY61SY26RUv5dcVBZ6fHMSRK0WHm5KleQM_hDrZhTHwkQlJq0dr_-d6FlSHUfUN6DY'></img>
+          <figurecaption>
+             <h1>Justin Roiland</h1>
+            <p>Rick Sanches</p>
+            <p>61 episodes ` 2013-2022</p>
+          </figurecaption>
+
+          </figure>
+         
+          <figure>
+          <div className='hover-animation'>
+           
+              <img  className="img-back" src='https://www.pngitem.com/pimgs/m/43-438554_jerry-smith-rick-e-morty-png-download-jerry.png'></img>
+              <img className='img-front' src='http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQqu6sbizVCs_rOvjY61SY26RUv5dcVBZ6fHMSRK0WHm5KleQM_hDrZhTHwkQlJq0dr_-d6FlSHUfUN6DY'></img>
+          </div>
+          <figurecaption>
+          <h1>Chris Parnell</h1>
+            <p>Jerry Smith</p>
+            <p>61 episodes ` 2013-2022</p>
+          </figurecaption>
+
+          </figure>
+          <figure>
+          <div className='hover-animation'>
+           
+              <img  className="img-back" src='https://comicvine.gamespot.com/a/uploads/scale_medium/6/66303/4472085-summer_in_ricksy_business.jpg'></img>
+              <img className='img-front' src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
+          </div>
+          <figurecaption>
+          <h1>Spencer Grammer</h1>
+            <p>Summer Smith</p>
+            <p>61 episodes ` 2013-2022</p>
+          </figurecaption>
+
+          </figure>
+        
+         
+          
+          {/* <div className='castcard'>
+            <img  className='castimages' src='http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQqu6sbizVCs_rOvjY61SY26RUv5dcVBZ6fHMSRK0WHm5KleQM_hDrZhTHwkQlJq0dr_-d6FlSHUfUN6DY'></img>
             <h1>Chris Parnell</h1>
-            <h1>Jerry Smith</h1>
-            <h3>61 episodes ` 2013-2022</h3>
+            <p>Jerry Smith</p>
+            <p>61 episodes ` 2013-2022</p>
           </div>
-          <div>
-            <img className='justinimage' src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
+          <div className='castcard'>
+            <img className='castimages'  src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
             <h1>Spencer Grammer</h1>
-            <h1>Summer Smith</h1>
-            <h3>61 episodes ` 2013-2022</h3>
+            <p>Summer Smith</p>
+            <p>61 episodes ` 2013-2022</p>
           </div>
-          <div>
-            <img className='justinimage' src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
-            <h1>Spencer Grammer</h1>
-            <h1>Summer Smith</h1>
-            <h3>61 episodes ` 2013-2022</h3>
+          <div className='castcard'>
+            <img  className='castimages' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQqog_xpIkjXRWxL9rNE2fLjGFm2FZHoOtZfzyBmOxlDDDs1DPVlVEWxRMldjXweMQrk-K4UwSky4DJi-w'></img>
+            <h1>Sarah Chalke</h1>
+            <p>Summer Smith</p>
+            <p>61 episodes ` 2013-2022</p>
           </div>
-          <div>
-            <img className='justinimage' src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
-            <h1>Spencer Grammer</h1>
-            <h1>Summer Smith</h1>
-            <h3>61 episodes ` 2013-2022</h3>
+          <div className='castcard'>
+            <img className='castimages' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTogD52zFSVexEGDdLmVvRr0Sd98PG8wnms5G4kJOZs91M1A-S4d_6S0DZudgCRLLtzU59GbMJmN3bIA_M'></img>
+            <h1>Kari Wahlgren</h1>
+            <p>Jessica</p>
+            <p>36 episodes ` 2013-2022</p>
           </div>
-          <div>
-            <img className='justinimage' src='http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQo5eX9vFQJwS2jkIrLU3f-p5xAvRvllVfVggYHbOAwwO4RX0ZpGZYeHr6rnrmbALkmDRjJiIq8ON7twgU'></img>
-            <h1>Spencer Grammer</h1>
-            <h1>Summer Smith</h1>
-            <h3>61 episodes ` 2013-2022</h3>
-          </div>
+          <div className='castcard'>
+            <img className='castimages' src='http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTY6VmMa4PAjDETyXnlRsPvQ6Kdv3-9tmhdEVy1fJkZYxol1rMbV7uRroWXIUPT-iUzLpxkSgSCMK6v_uA'></img>
+            <h1>Maurice LaMarche</h1>
+            <p>Abradoph Lindler</p>
+            <p>29 episodes ` 2013-2022</p>
+          </div> */}
         </div>
         <div>
 

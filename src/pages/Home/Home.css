@@ -158,15 +158,74 @@ h4{
 
   /* Top cast */
 
-  .cast{
-    margin-top: 40px;
-    display: flex;
+
+.wrapper{ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 5rem;
+  width: 1170px;
+  margin: auto;
+}
+
+ 
+.figure{
+  width: 32%;
+  float: left;
+  margin: 0;
+}
+
+.hover-animation{
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin: 10% auto 0;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.hover-animation img{
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+}
+
+.hover-animation img.img-front:hover{
+opacity: 0;
+cursor: pointer;
+}
+
+  /* .castcontainer{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin-bottom: 5rem;
     
+  } */
+
+  /* .castcard{
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+  } */
+
+  /* p{
+    color: #319795;
   }
 
-  .justinimage{
-    width: 20%;
-  }
+ .castimages{
+  width: 430px;
+  height: 300px;
+ } */
 
   @media screen and (max-width: 1400px) {
     .btn-show-more-1 {
