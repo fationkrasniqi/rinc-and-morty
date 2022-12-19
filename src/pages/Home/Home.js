@@ -49,14 +49,14 @@ const Home = () => {
           </div>
           
         </div>
-        <div className='test2'>
+        <div className=''>
               <TabsSection/>
              
              <button className='buton6'
               type='submit'
              onClick={() => navigate('/characters')}>View all characters </button>
         </div>
-        <div className='test2'>
+        <div className=''>
             <div className='images'>
               <img className='image22' src='https://m.media-amazon.com/images/M/MV5BZmZhNWMyODgtMzA0OC00NWFhLTllODQtYmJkZjYxYWU4MGU1XkEyXkFqcGdeQWFybm8@._V1_.jpg'></img>
               <img className='image22' src='https://static01.nyt.com/images/2018/05/17/arts/18rickandmorty3/17rickandmorty-articleLarge.jpg?quality=75&auto=webp&disable=upscale'></img>
@@ -64,7 +64,7 @@ const Home = () => {
               </div>
               {/* Top cast */}
               <div>
-            <h1>Top cast
+            <h1 className="test2">Top cast
            </h1>  
         </div>
         <div className='wrapper'>
@@ -74,7 +74,7 @@ const Home = () => {
               <img  className="img-back" src='https://progameguides.com/wp-content/uploads/2021/06/fortnite-outfit-Rick-Sanchez-768x803.jpg'></img>
               <img className='img-front' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSHfBPwCFoBjHeWb5TdDVXnnOgmnXvzwpbC0dtwMaxgtyTfxn3ih5kyac5tEgXgOvCovqteyMWIQaUTHLw'></img>
           </div>
-          <figurecaption>
+          <figurecaption className="figtext">
              <h1>Justin Roiland</h1>
             <p>Rick Sanches</p>
             <p>61 episodes ` 2013-2022</p>
@@ -109,47 +109,7 @@ const Home = () => {
 
           </figure>
           
-          <figure>
-          <div className='hover-animation'>
-           
-              <img  className="img-back" src='https://www.kindpng.com/picc/m/43-438936_beth-smith-rick-and-morty-wine-hd-png.png'></img>
-              <img className='img-front' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQqog_xpIkjXRWxL9rNE2fLjGFm2FZHoOtZfzyBmOxlDDDs1DPVlVEWxRMldjXweMQrk-K4UwSky4DJi-w'></img>
-          </div>
-          <figurecaption>
-          <h1>Sarah Chalke</h1>
-            <p>Beth Smith</p>
-            <p>61 episodes ` 2013-2022</p>
-          </figurecaption>
-
-          </figure>
-
-          <figure>
-          <div className='hover-animation'>
-           
-              <img  className="img-back" src='https://i.pinimg.com/474x/d9/15/8c/d9158ce24f1901a59be5db706730b55d.jpg'></img>
-              <img className='img-front' src='http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTogD52zFSVexEGDdLmVvRr0Sd98PG8wnms5G4kJOZs91M1A-S4d_6S0DZudgCRLLtzU59GbMJmN3bIA_M'></img>
-          </div>
-          <figurecaption>
-          <h1>Kari Wahlgren</h1>
-            <p>Jessica</p>
-            <p>36 episodes ` 2013-2022</p>
-          </figurecaption>
-
-          </figure>
-         
-          <figure>
-          <div className='hover-animation'>
-           
-              <img  className="img-back" src='https://i1.sndcdn.com/avatars-000530476173-1wgpia-t500x500.jpg'></img>
-              <img className='img-front' src='http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTY6VmMa4PAjDETyXnlRsPvQ6Kdv3-9tmhdEVy1fJkZYxol1rMbV7uRroWXIUPT-iUzLpxkSgSCMK6v_uA'></img>
-          </div>
-          <figurecaption>
-          <h1>Maurice LaMarche</h1>
-            <p>Abradoph Lindler</p>
-            <p>29 episodes ` 2013-2022</p>
-          </figurecaption>
-
-          </figure>
+     
         
         {/* End of Top cast */}
 
@@ -160,9 +120,9 @@ const Home = () => {
             <button className='buton6'
             type='submit'
             onClick={()=> navigate('/about')}
-            >View more info </button>
+            >View more  </button>
         </div>
-        <h1 className='youtubetexting'>    First teaser trailer for Rick and morty live action starring Christopher Lloyd, Jaeden Martel.</h1>
+        <h1 className='randomtext'>    First teaser trailer for Rick and morty live action starring Christopher Lloyd, Jaeden Martel.</h1>
 
        <div className='containervideosrc'>
         <iframe className='' width="420" height="315" src='https://www.youtube.com/embed/b57Weqj13e0' 
@@ -183,16 +143,6 @@ const Home = () => {
             He also goes on adventures across the universe that often involve his grandchildren, Morty and Summer.
         </h4>
        </div>
-        <div className='test2'>
-        <div class="card">
-  <h5 class="card-header">Featured</h5>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-        </div>
     </div>
     
   )

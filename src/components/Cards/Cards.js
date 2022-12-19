@@ -10,8 +10,9 @@ const Cards = ({results}) => {
        display = results.map(x=>{
         let {id, name, image,status,location} = x;
 
-        return(<div key = {id }className='col-3'>
-          <div className='cards'>
+        return(<div key = {id }
+        className='col-lg-3 col-md-6 col-12'>
+          <div className={`${styles.cards}  flex-column d-flex justify-content-center`}>
             <img src={image} alt='' className={`${styles.img} img-fluid`} />
             <div className='content'>
             <div className='fs-5 fw-bold mb-3'>{name}</div>

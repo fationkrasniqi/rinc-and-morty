@@ -3,7 +3,7 @@ import './Search.css'
 
 const Search = ({setSearch}) => {
   return (
-   <form className='container my-5'>
+   <form className='container my-5 flex-sm-row'>
     <input 
     onChange={(e) => {
         setSearch(e.target.value);
