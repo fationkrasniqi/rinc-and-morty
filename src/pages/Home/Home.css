@@ -6,6 +6,27 @@
    
 }
 
+.testbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buton6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: inherit;
+  margin-top: 10px;
+  background-color: #319795;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 220px;
+  border-radius: 15px;
+}
+  
+
 .repository{
     position: absolute;
     top: 13rem;
@@ -57,10 +78,10 @@ h4{
 
 
 .test2{
-    margin-top: 10rem;
+    margin-top: 5rem;
    align-items: center;
    text-align: center;
-   margin-bottom: 10rem;
+   margin-bottom: 5rem;
 }
 
 
@@ -139,6 +160,7 @@ h4{
 
   .buton6{
     
+  
     text-transform:inherit;
     margin-top: 10px;
     background-color: #319795;
@@ -149,17 +171,19 @@ h4{
     border-radius: 15px;
   }
 
+
   .images{
-    display: flex;
-    justify-content: center;
-    
-    gap: 10px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-left: 40px;
+    column-gap: 5px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .image22{
-    height: 40%;
-    width: 31%;
+    height: 80%;
+    width: 91%;
   }
 
 
@@ -208,32 +232,7 @@ opacity: 0;
 cursor: pointer;
 }
 
-  /* .castcontainer{
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    justify-content: center;
-    column-gap: 2rem;
-    row-gap: 1rem;
-    margin-bottom: 5rem;
-    
-  } */
-
-  /* .castcard{
-    margin: 50px;
-    box-shadow: 5px 5px 20px black;
-  } */
-
-  /* p{
-    color: #319795;
-  }
-
- .castimages{
-  width: 430px;
-  height: 300px;
- } */
-
+ 
 
 /* Youtube src */
 
@@ -286,12 +285,16 @@ cursor: pointer;
   
   @media (max-width: 767px) {
 
-  
+  .container3{
+    max-width: 100%;
+            overflow-x: hidden;
+          
+  }
 
     .header_img {
       flex-direction: column;
       left: 0;
-      top: 13%;
+      top: 7%;
       width: 100%;
       margin: 0 auto;
       align-items: center;
@@ -315,10 +318,20 @@ cursor: pointer;
     .getstartedbutton {
       
         /* position: absolute; */
-        top: 42rem;
+        top: 40rem;
         left: 0rem;
+      
         
     }
+
+    .getstartedbutton {
+      display: flex;
+      justify-content: center;
+      padding-top: 10rem;
+      gap: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
 
     .wrapper {
       display: grid;
@@ -348,7 +361,89 @@ cursor: pointer;
     /* text-align: center; */
     margin-bottom: 10rem;
 }
+.image22 {
+  height: 90%;
+  width: 91%;
+}
 
+.images{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-left: 40px;
+   column-gap: 5px;
+   margin-bottom: 2rem;
+   margin-top: 3rem;
+ }
+
+ .containervideosrc {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.youtubetext{
+  margin-top: 2rem;
+  font-size: 0.8rem;
+padding-left: 3rem;
+padding-right: 2rem;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.randomtext{
+
+  text-align: center;
+  font-size: 1rem;
+}
+
+.random {
+  display: grid;
+  grid-template-rows: repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.rickandmorty {
+  padding-left: rem;
+  padding-right: 6rem;
+  height: 12rem;
+  /* margin-right: 4rem;
+  margin-left: 10rem; */
+}
+
+.random1text{
+  margin-right: -2rem;
+  margin-left: 10rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 5rem;
+ 
+}
+
+
+
+figure {
+
+  
+  /* margin-right: 1rem;
+  margin-left: 1rem; */
+}
+
+.test2 {
+  margin-top: 3rem;
+  align-items: center;
+  /* text-align: center; */
+  margin-bottom: 3rem;
+}
 
 
 

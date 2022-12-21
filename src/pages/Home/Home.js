@@ -9,6 +9,7 @@ const Home = () => {
 
   return (
     <div>
+      <div className='container3'>
       <div className='header'>
       <section className="header_container">
         <div className="header_img ">
@@ -38,7 +39,7 @@ const Home = () => {
           <h1 className='randomtext'>Rick and Morty's adult animated </h1>
           <div className='random'>
             <img className='rickandmorty' src='https://c4.wallpaperflare.com/wallpaper/497/451/606/tv-show-rick-and-morty-morty-smith-rick-sanchez-hd-wallpaper-preview.jpg' alt='rick-and-morty'></img>
-            <h4>
+            <h4 className='random1text'>
             Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's 
             nighttime programming block Adult Swim. It is distributed internationally by Warner Bros. Domestic Television. The series
              follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith,
@@ -51,12 +52,14 @@ const Home = () => {
         </div>
         <div className=''>
               <TabsSection/>
-             
+             <div className='testbutton'>
              <button className='buton6'
               type='submit'
              onClick={() => navigate('/characters')}>View all characters </button>
+             </div>
         </div>
         <div className=''>
+            <div className='imagecontainer'></div>
             <div className='images'>
               <img className='image22' src='https://m.media-amazon.com/images/M/MV5BZmZhNWMyODgtMzA0OC00NWFhLTllODQtYmJkZjYxYWU4MGU1XkEyXkFqcGdeQWFybm8@._V1_.jpg'></img>
               <img className='image22' src='https://static01.nyt.com/images/2018/05/17/arts/18rickandmorty3/17rickandmorty-articleLarge.jpg?quality=75&auto=webp&disable=upscale'></img>
@@ -117,15 +120,17 @@ const Home = () => {
         <div>
 
         </div>
+        <div className='testbutton'>
             <button className='buton6'
             type='submit'
             onClick={()=> navigate('/about')}
             >View more  </button>
+            </div>
         </div>
         <h1 className='randomtext'>    First teaser trailer for Rick and morty live action starring Christopher Lloyd, Jaeden Martel.</h1>
 
        <div className='containervideosrc'>
-        <iframe className='' width="420" height="315" src='https://www.youtube.com/embed/b57Weqj13e0' 
+        <iframe className='video' width="420" height="315" src='https://www.youtube.com/embed/b57Weqj13e0' 
         frameborder="0"
        allowfullscreen
        ng-show="showvideo"
@@ -142,6 +147,7 @@ const Home = () => {
             some of which could be considered dangerous. But that's not all Rick does that concerns Jerry. 
             He also goes on adventures across the universe that often involve his grandchildren, Morty and Summer.
         </h4>
+       </div>
        </div>
     </div>
     
