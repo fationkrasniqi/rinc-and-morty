@@ -10,6 +10,7 @@ const About = () => {
     <h1 className="text-center ubuntu my-3">Rick & <span className="text-primary">Morty</span></h1>
       <h1 className='text-center ubuntu text-primary '>Cast</h1>
     </div>
+    <div className='test13'>
     <div className='wrapper'>
           <figure>
           <div className='hover-animation'>
@@ -96,6 +97,7 @@ const About = () => {
         
         {/* End of Top cast */}
 
+        </div>
         </div>
         <div>
 

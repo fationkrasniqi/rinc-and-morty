@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import TabsSection from '../../components/Rick-morty/rickmorty';
-import './Home.css';
+import styles from './Home.css';
 
 
 const Home = () => {
@@ -70,8 +70,10 @@ const Home = () => {
             <h1 className="test2">Top cast
            </h1>  
         </div>
+        <div className='test13'>
         <div className='wrapper'>
-          <figure>
+
+          <figure className='testimi'>
           <div className='hover-animation'>
            
               <img  className="img-back" src='https://progameguides.com/wp-content/uploads/2021/06/fortnite-outfit-Rick-Sanchez-768x803.jpg'></img>
@@ -116,6 +118,8 @@ const Home = () => {
         
         {/* End of Top cast */}
 
+        
+        </div>
         </div>
         <div>
 
