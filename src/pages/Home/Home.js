@@ -127,11 +127,10 @@ const Home = () => {
 
         </div>
         <div className='testbutton'>
-            <button className='buton6'
-            type='submit'
-            onClick={()=> navigate('/about')}
-            >View more  </button>
-            </div>
+             <button className='buton6'
+              type='submit'
+             onClick={() => navigate('/about')}>View more  </button>
+             </div>
         </div>
         <h1 className='randomtext'>    First teaser trailer for Rick and morty live action starring Christopher Lloyd, Jaeden Martel.</h1>
 

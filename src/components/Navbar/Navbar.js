@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from "./Navbar.css";
 import Logo from '../Navbar/Logo/rick-and-morty.png';
 import '../../App.css'
@@ -9,7 +10,7 @@ const Navbar = () => {
     <div>
       <nav  className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand fs-4 px-3 " href="/"><img className='logo' src={Logo} alt='Site logo'/></a>
+    <Link to="/" className="navbar-brand fs-4 px-3 " ><img className='logo' src={Logo} alt='Site logo'/></Link>
     <button className="navbar-toggler"
      type="button"
      data-bs-toggle="collapse"
@@ -38,10 +39,14 @@ const Navbar = () => {
     {/* className={`$styles.img} img-fluid`} /> */}
       <ul className="navbar-nav"  >
         <li className="nav-item">
-          <a   className="nav-link" aria-current="page" href="characters">Characters</a>
+        <Link to="/characters" className="nav-link">Characters</Link>
+         
+          {/* <a   className="nav-link" aria-current="/page" href="characters">Characters</a> */}
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="about">Cast</a>
+        <Link to="/about" className="nav-link">Cast</Link>
+   
+                      {/* <a className="nav-link " href="/about">Cast</a> */}
         </li>
       </ul>
     </div>
