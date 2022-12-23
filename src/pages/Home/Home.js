@@ -28,8 +28,10 @@ const Home = () => {
              color='blue'
               className="buton6"
               type="submit"
-              onClick={() => navigate('/about')}
-            >Repository</button>
+              onClick={(e) => {e.preventDefault();
+                window.open("https://github.com/fationkrasniqi/rinc-and-morty", "_blank"); } }
+              
+            >Github</button>
          
 
           </div>

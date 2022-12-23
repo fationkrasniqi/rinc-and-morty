@@ -1,3 +1,9 @@
+.container3{
+  max-width: 100%;
+          overflow-x: hidden;
+        
+}
+
 .getstartedbutton{
     display: flex;
     justify-content: center;
@@ -256,13 +262,9 @@ cursor: pointer;
   font-size: 2rem;
 }
 
-  @media screen and (max-width: 1400px) {
-    .btn-show-more-1 {
-      width: 20vw;
-    }
-  }
+ 
   
-  @media (max-width: 950px) {
+  @media (max-width: 1275px) {
     .header_img {
         
       flex-direction: column;
@@ -322,16 +324,23 @@ cursor: pointer;
   padding-left: 4rem;
 }
 
-/* .randomtext{
-  margin-left: 7rem;
-  font-size: 1.9rem;
-} */
+.randomtext{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(49, 151, 149);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 
 .random1text{
-  display: flex;
-  font-size: 1.5rem;
+  margin-right: -2rem;
+  margin-left: 10rem;
   text-align: center;
-  /* padding-left: 4rem; */
+  /* margin-top: 2rem; */
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
 }
 
 .random{

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const About = () => {
   const navigate = useNavigate;
   return (
-   <div>
+   <div className='testbackground'>
     <div>
     <h1 className="text-center ubuntu my-3">Rick & <span className="text-primary">Morty</span></h1>
       <h1 className='text-center ubuntu text-primary '>Cast</h1>
